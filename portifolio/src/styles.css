@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+  --cor01: #150811; /* Licorice */
+  --cor02: #00A7E1; /* Picton Blue */
+  --cor03: #004346; /* Midnight Green */
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: black no-repeat center scroll;
+  background-size: cover;
+}

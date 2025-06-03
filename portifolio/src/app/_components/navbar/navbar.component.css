@@ -1,0 +1,43 @@
+*{
+  background-color: rgba(255, 255, 255, 0.329);
+  padding: 0px;
+}
+
+nav{
+  margin: auto;
+  font-size: 1.8em;
+  padding: 15px;
+}
+
+.container-fluid{
+  justify-content: space-around;
+}
+
+.navbar-brand{
+  font-size: 1.5em;
+}
+
+.navbar-nav{
+  gap: 50px;
+}
+
+.nav-item {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding-bottom: 6px;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 10px;
+  background-color: #00A7E1;
+  transition: width 0.3s ease;
+}
+.nav-item:hover::after {
+  width: 100%;
+}
