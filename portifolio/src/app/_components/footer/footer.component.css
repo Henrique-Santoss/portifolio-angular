@@ -1,0 +1,31 @@
+.site-footer {
+  background: var(--cor01);
+  color: white;
+  padding: 20px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.footer-content {
+  margin: auto;
+  text-align: center;
+
+  justify-content: space-around;
+}
+
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.icon {
+  width: 24Px;
+  height: 24px;
+  fill: white;
+}
+
+a:hover .icon {
+  fill: var(--cor02);
+  transform: scale(1.1);
+}

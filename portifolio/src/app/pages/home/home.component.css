@@ -1,0 +1,14 @@
+.home-container{
+  justify-content: space-around;
+}
+
+h1 > strong{
+  color: var(--cor02);
+}
+
+.intro-image{
+  background: url('../../images/home.png') no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}

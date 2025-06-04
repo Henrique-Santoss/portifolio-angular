@@ -25,7 +25,7 @@ nav{
   position: relative;
   text-decoration: none;
   transition: color 0.3s ease;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
 }
 
 .nav-item::after {
@@ -35,7 +35,7 @@ nav{
   left: 0;
   width: 0;
   height: 10px;
-  background-color: #00A7E1;
+  background-color: var(--cor02);
   transition: width 0.3s ease;
 }
 .nav-item:hover::after {
