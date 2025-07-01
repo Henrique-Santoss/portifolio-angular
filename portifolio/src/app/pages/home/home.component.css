@@ -1,9 +1,16 @@
+*{
+  background: scroll;
+}
+
 .home-container{
   justify-content: space-around;
 }
 
-h1 > strong{
-  color: var(--cor02);
+.intro{
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-image{
@@ -11,4 +18,80 @@ h1 > strong{
   background-size: cover;
   height: 500px;
   width: 500px;
+}
+
+.introduce-container{
+  justify-content: space-around;
+}
+
+.introduce{
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce > h1{
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.introduce > p{
+  font-size: 1.3em;
+  text-align: left;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce-image{
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.image-innershadow{
+    background: linear-gradient(to right, var(--cor01), var(--cor02), var(--cor03));
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.image{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.follow{
+  padding: 20px;
+  text-align: center;
+}
+
+.follow > h1{
+  font-weight: bold;
+  padding-bottom: 10px;
+  width: 92vw;
+}
+
+.follow > p{
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+
+.social-links > a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.icon {
+  width: 40Px;
+  height: 40px;
+}
+
+a:hover > .icon {
+  fill: var(--cor03);
+  transform: scale(1.1);
+}
+
+strong{
+  color: var(--cor02);
 }
