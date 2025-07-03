@@ -18,3 +18,9 @@ Este é um projeto de portfólio desenvolvido utilizando Angular, com o objetivo
 - TypeScript
 - HTML5 & CSS3
 - Angular Material / Bootstrap
+
+## 🔗 Acesse o Projeto
+
+Confira o portfólio completo em funcionamento por meio do link abaixo:
+
+👉 [Visualizar Portfólio Online](https://seu-link-aqui.com)
