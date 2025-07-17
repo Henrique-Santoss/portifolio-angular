@@ -7,9 +7,14 @@
 }
 
 *{
-  background: scroll;
+  color: white;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+}
+
+body{
+  background: black url('app/images/background.png') scroll no-repeat;
+  background-size: cover;
 }

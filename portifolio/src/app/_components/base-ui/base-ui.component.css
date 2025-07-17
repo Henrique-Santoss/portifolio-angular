@@ -1,4 +1,8 @@
 *{
-  background: scroll no-repeat;
   min-height: 90vh;
+}
+
+section{
+  max-width: 1300px;
+  margin: auto;
 }
