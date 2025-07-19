@@ -4,7 +4,7 @@
 }
 
 nav{
-  background-color: var(--cor01);
+  background-color: rgba(0, 0, 0, 0.445);
   margin: auto;
   font-size: 1.8em;
   padding: 15px;

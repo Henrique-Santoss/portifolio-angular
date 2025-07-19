@@ -54,12 +54,25 @@
   margin-bottom: 30px;
 }
 
+.border-loop{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: linear-gradient(to right , var(--cor01), var(--cor03), var(--cor02));
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .introduce-image{
   background: url('../../images/foto-perfil.png') no-repeat;
   background-size: cover;
   min-height: 300px;
   min-width: 300px;
   border-radius: 50%;
+  object-fit: cover;
 
   align-self: center;
 }
@@ -101,4 +114,17 @@ a:hover > .icon {
 
 strong{
   color: var(--cor02);
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0& 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
 }
