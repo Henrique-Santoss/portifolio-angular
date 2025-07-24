@@ -1,0 +1,20 @@
+.card{
+  background: rgba(0, 0, 0, 0.301);
+  border: var(--cor02) solid 1px;
+  width: 300px;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  fill: var(--cor03);
+  overflow: hidden;
+}
+
+.card:hover{
+  fill: var(--cor02);
+  scale: 1.05;
+}
+
+.card-img{
+  width: 100%;
+  height: auto;
+}

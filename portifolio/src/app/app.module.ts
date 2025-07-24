@@ -10,6 +10,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { BaseUiComponent } from './_components/base-ui/base-ui.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
+import { CardComponent } from './_components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './_components/footer/footer.component';
     ResumeComponent,
     BaseUiComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

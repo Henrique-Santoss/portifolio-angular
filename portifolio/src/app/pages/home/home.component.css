@@ -1,5 +1,7 @@
 .home-container{
+  margin-top: 100px;
   min-height: 80vh;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -34,6 +36,7 @@
 }
 
 .introduce-container{
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
 
@@ -55,8 +58,6 @@
 }
 
 .border-loop{
-  width: 320px;
-  height: 320px;
   border-radius: 50%;
   background: linear-gradient(to right , var(--cor01), var(--cor03), var(--cor02));
   background-size: 180% 180%;
