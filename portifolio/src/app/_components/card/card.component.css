@@ -1,5 +1,5 @@
 .card{
-  background: rgba(0, 0, 0, 0.301);
+  background: rgba(0, 0, 0, 0.253);
   border: var(--cor02) solid 1px;
   width: 300px;
   height: 200px;
@@ -7,6 +7,9 @@
   margin-bottom: 40px;
   fill: var(--cor03);
   overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .card:hover{
@@ -16,5 +19,5 @@
 
 .card-img{
   width: 100%;
-  height: auto;
+  height: 150px;
 }

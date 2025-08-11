@@ -30,8 +30,9 @@
 
 .container-skills{
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .toolset{
@@ -41,8 +42,9 @@
 
 .container-tools{
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 strong{

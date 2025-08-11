@@ -2,9 +2,9 @@
   <div class="about-intro">
     <h1>Saiba quem <strong>eu sou</strong></h1>
     <p>Olá a todos. Eu sou <strong>Henrique Santos</strong> de <strong>Três Lagoas, Mato Grosso do Sul, Brasil.</strong></p>
+    <p>Estou em busca de atuar como Desenvolvedor Web ou Front-End.</p>
     <p>Além de programação, há outras atividades que eu amo fazer!</p>
-    <ul>
-      <li>Jogar Video Game</li>
+    <ul class="none">
       <li>Praticar Esportes</li>
       <li>Ler Mangás</li>
     </ul>
@@ -16,34 +16,18 @@
 <section class="skillset">
   <h1>Habilidades e <strong>Competências</strong></h1>
   <div class="container-skills d-flex">
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
+    <app-card
+    *ngFor="let skill of skillset"
+    [url]="skill"
+    ></app-card>
   </div>
 </section>
 <section class="toolset">
   <h1><strong>Tecnologias</strong> que utilizo</h1>
     <div class="container-tools d-flex">
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
-    <app-card>
-
-    </app-card>
+    <app-card
+      *ngFor="let tools of toolset"
+      [url]="tools"
+    ></app-card>
   </div>
 </section>
