@@ -11,6 +11,7 @@ import { BaseUiComponent } from './_components/base-ui/base-ui.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
 import { CardComponent } from './_components/card/card.component';
+import { CardProjectComponent } from './_components/card-project/card-project.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardComponent } from './_components/card/card.component';
     BaseUiComponent,
     NavbarComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    CardProjectComponent
   ],
   imports: [
     BrowserModule,
